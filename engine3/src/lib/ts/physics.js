@@ -179,7 +179,7 @@ class DynamicBoxCollider extends BoxCollider {
     }
 }
 class Physics {
-    static gravity = createVector(0, 30);
+    static gravity = createVector(0, 1000);
     static bodies = [];
     static physicsComponents = [];
     static update(deltaTime) {
